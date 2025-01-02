@@ -58,11 +58,35 @@
 
 /* DESKTOP SITE */
 @media (min-width: 1920px){
-    /* Gemmer tablet og desktop menu */
-    .tablet_menu, .desktop_menu{
+    /* Gemmer phone & tablet menu */
+    .phone_menu, .tablet_menu{
         display: none;
     }
 
+
+    /* CONTACT */
+
+    main{
+        display: grid;
+        place-items: center;
+    }
+
+    .html_form{
+        width: 605px;
+        height: 300px;
+        border-radius: 25px;
+        background: #E8EAE9;
+        box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+    }
+    form {
+        padding: 2rem;
+        border-radius: 8px;
+        display: grid;
+        height: 315px;
+        gap: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
 
     body{
         background-color: white;

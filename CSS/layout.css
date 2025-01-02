@@ -18,7 +18,21 @@
 
     /* MOBILE MENU */
         .phone_menu{
-            
+            background-color: aquamarine;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            position: absolute;
+            bottom: 0;
+            padding: 15px 85px 15px 85px;
+            /* padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 85px;
+            padding-right: 85px; */
+            gap: 15px;
+            img{
+                border: 2px solid #A7B2C8;
+                border-radius: 10px;
+            }
         }
 
 

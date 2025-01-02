@@ -1,0 +1,57 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* MOBILE SITE */
+@media (min-width: 430px){
+    /* Gemmer tablet og desktop menu */
+    .tablet_menu, .desktop_menu{
+        display: none;
+    }
+
+    /* MOBILE MENU */
+        .phone_menu{
+            
+        }
+
+
+    body{
+        background-color: black;
+    }
+
+}
+
+/* TABLET SITE */
+@media (min-width: 768px){
+    /* Gemmer tablet og desktop menu */
+    .tablet_menu, .desktop_menu{
+        display: none;
+    }
+
+
+    body{
+        background-color: green;
+    }
+
+}
+
+/* DESKTOP SITE */
+@media (min-width: 1920px){
+    /* Gemmer tablet og desktop menu */
+    .tablet_menu, .desktop_menu{
+        display: none;
+    }
+
+
+    body{
+        background-color: white;
+    }
+
+}

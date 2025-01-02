@@ -9,6 +9,10 @@
     }
 }
 
+.dk{
+    display: none;
+}
+
 /* MOBILE SITE */
 @media (min-width: 430px){
     /* Gemmer tablet og desktop menu */
@@ -16,13 +20,17 @@
         display: none;
     }
 
+    main{
+        padding: 0px 15px 100px 15px;
+    }
+
     /* MOBILE MENU */
         .phone_menu{
             background-color: aquamarine;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            position: absolute;
-            bottom: 0;
+            position: fixed;
+            bottom: 0px;
             padding: 15px 85px 15px 85px;
             /* padding-top: 15px;
             padding-bottom: 15px;
@@ -37,7 +45,7 @@
 
 
     body{
-        background-color: black;
+        background-color: grey;
     }
 
 }

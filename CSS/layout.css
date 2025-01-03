@@ -21,7 +21,7 @@
     }
 
     main{
-        padding: 0px 15px 100px 15px;
+        padding: 0px 15px 125px 15px;
     }
 
     /* MOBILE MENU */
@@ -48,12 +48,22 @@
         background-color: grey;
     }
 
+
+
+    /* PORTFOLIO */
+    .portfolio_buttons{
+        img{
+            height: 365px;
+            width: 140;
+        }
+    }
+
 }
 
 /* TABLET SITE */
 @media (min-width: 768px){
     /* Gemmer tablet og desktop menu */
-    .tablet_menu, .desktop_menu{
+    .phone_menu, .desktop_menu{
         display: none;
     }
 

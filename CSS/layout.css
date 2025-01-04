@@ -20,6 +20,14 @@
         display: none;
     }
 
+    div, section,{
+        padding-bottom: 25px;
+    }
+
+    h1, h2,p {
+        padding-bottom: 10px;
+    }
+
     main{
         padding: 0px 15px 125px 15px;
     }

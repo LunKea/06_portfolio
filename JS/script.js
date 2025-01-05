@@ -22,6 +22,7 @@
     console.log("Gemmer portfolio sektionerne");
     document.querySelector(".portfolio_section").classList.add("hide");
     document.querySelector(".portfolio_section2").classList.add("hide");
+    document.querySelector(".portfolio_section3").classList.add("hide");
     }
 
     // Vis portfolio baseret på hvilken knap man trykker på
@@ -37,6 +38,7 @@
       });
     }
 
+
     document.querySelector(".firstWebsite_btn").addEventListener("click", showFirstWebsite_en);
 
     function showFirstWebsite_en(){
@@ -44,6 +46,19 @@
       document.querySelector(".firstWebsite_en").classList.remove("hide");
       window.scrollTo({
         top: 2550,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    
+    document.querySelector(".ux_btn").addEventListener("click", showUX_en);
+
+    function showUX_en(){
+      console.log("Showin UX Portfolio EN");
+      document.querySelector(".UX_en").classList.remove("hide");
+      window.scrollTo({
+        top: 2400,
         left: 0,
         behavior: "smooth",
       });

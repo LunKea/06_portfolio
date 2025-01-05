@@ -24,6 +24,10 @@
         padding-bottom: 25px;
     }
 
+    h1{
+        padding-top: 20px;
+    }
+
     h1, h2,p {
         padding-bottom: 10px;
     }

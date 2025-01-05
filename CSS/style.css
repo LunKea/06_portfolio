@@ -1,8 +1,42 @@
 /* Fonts */
+@font-face {
+    font-family: "Dune_Rise";
+    src: url(../Assets/Fonts/dune_rise.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+.inria-sans-regular {
+    font-family: "Inria Sans";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+.inter-font> {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
 
 /* Styling */
+
+h1{
+    font-family: Dune_Rise;
+}
+
+h2{
+    font-family: "Inria Sans";
+}
+
+p{
+    font-family: inter;
+}
 
 a{
     cursor: pointer;

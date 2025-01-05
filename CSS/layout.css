@@ -41,9 +41,14 @@
         overflow-x: hidden;
     }
 
-    main{
-        padding: 0px 15px 125px 15px;
+    main, section{
+        padding: 0px 25px 125px 25px;
     }
+
+/* 
+    body{
+        padding: 0px 15px 125px 15px;
+    } */
 
     /* MOBILE MENU */
         .phone_menu{
@@ -121,6 +126,26 @@
             height: 365px;
             width: 140;
         }
+    }
+
+    .backToTopDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 125px;
+    }
+
+    .backToTop{
+        font-size: 20px;
+        border-radius: 10px;
+        background: #E8EAE9;
+        box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+        height: 100px;
+        width: 250px;
+    }
+
+    .portfolio_section{
+        padding-top: 0px;
     }
 
 }

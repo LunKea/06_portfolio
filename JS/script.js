@@ -21,6 +21,7 @@
     function gemPortfolio(){
     console.log("Gemmer portfolio sektionerne");
     document.querySelector(".portfolio_section").classList.add("hide");
+    document.querySelector(".portfolio_section2").classList.add("hide");
     }
 
     // Vis portfolio baseret på hvilken knap man trykker på
@@ -30,11 +31,22 @@
       console.log("Showing intro week EN");
       document.querySelector(".introweek_en").classList.remove("hide");
       window.scrollTo({
-        top: 2400,
+        top: 2550,
         left: 0,
         behavior: "smooth",
       });
-  
+    }
+
+    document.querySelector(".firstWebsite_btn").addEventListener("click", showFirstWebsite_en);
+
+    function showFirstWebsite_en(){
+      console.log("Showing first website EN");
+      document.querySelector(".firstWebsite_en").classList.remove("hide");
+      window.scrollTo({
+        top: 2550,
+        left: 0,
+        behavior: "smooth",
+      });
     }
 
 

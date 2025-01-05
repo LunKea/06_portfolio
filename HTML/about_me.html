@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/layout.css">
@@ -41,33 +50,39 @@
     <header class="desktop_menu">
     </header>
 
-    <main class="en">
+    <main class="en aboutme">
         <div class="aboutme_sidepanel">
+            <div class="aboutme_introduction">
         <h1>MARK ANTHONY AQUINO</h1>
         <h3>Student</h3>
+            </div>
         <img src="../Assets/pfp.jpg" alt="">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <p class="clickable_email">lunkea2024@gmail.com</p>
         
-        <h1>Languages</h1>
+        <h2>Languages</h2>
         <li>Danish</li>
         <Li>English</Li>
 
-        <h1>Self-taught skills</h1>
+        <h2>Self-taught skills</h2>
         <li>Essay Writing</li>
         <li>Video Editing</li>
         <li>3D Modeling</li>
         <li>Photo Editing</li>
         <li>Music Production</li>
 
-        <h1>Previous Jobs</h1>
+        <h2>Previous Jobs</h2>
         <li>Freelance video editor</li>
         <li>Freelance audio designer</li>
         <li>Freelance music composer</li>
         <li>Cashier</li>
         <li>Warehouse worker</li>
 
-        <h1>Interests/Hobbies</h1>
+        <h2>Interests
+            <br>
+            /Hobbies
+        </br>
+        </h2>
         <li>Making videos</li>
         <li>Watching video essays</li>
         <li>Playing videogames</li>
@@ -80,26 +95,28 @@
         </div>
 
         <section class="aboutme_mainpanel">
-        <h1>About me</h1>
-        <p>I'm a student from Denmark studying at KEA, 
+            <div class="aboutme_mainpanelsection">
+            <h2>About me</h2>
+            <p>I'm a student from Denmark studying at KEA, 
             with the goal of becoming an UX designer. 
             My interest for UX-design started back from college at 
             NEXT: Københavns Mediegymnasie</p>
-        <p>I was first introduced to UX-Design through physical products such as cars and doors funnily enough, but later learned that UX-Design was also a digital job, which intrigued me as I have a really big interest in technology and digital the workspace. </p>
-        <p>After graduating college I took a 4-year gap-years where I was self-studying various skills such as: Music produciton, Sound Design and Video editing.</p>
-        <p>I’ve always enjoyed watching video essays on youtube on various topics such as videogames, human philosophy, fashion and technology. And wanted to create my own video essays but mainly focused on videogames.</p>
-        <p>During my gap-years I also worked at a warehouse and got to travel around the world, I met up with my internet friends after 1.5 years of knowing them in London!</p>
-    
-        <h1>Education</h1>
-        <div>
+            <p>I was first introduced to UX-Design through physical products such as cars and doors funnily enough, but later learned that UX-Design was also a digital job, which intrigued me as I have a really big interest in technology and the digital workspace. </p>
+            <p>After graduating college I took a 4-year gap-years where I was self-studying various skills such as: Music produciton, Sound Design and Video editing.</p>
+            <p>I’ve always enjoyed watching video essays on youtube on various topics such as videogames, human philosophy, fashion and technology. And wanted to create my own video essays but mainly focused on videogames.</p>
+            <p>During my gap-years I also worked at a warehouse and got to travel around the world, I met up with my internet friends after 1.5 years of knowing them in London!</p>
+            </div>
+
+        <h2>Education</h2>
+        <div class="education">
         <p>2017-2020</p>
-        <p>NEXT: Københavns Mediegymnasie</p>
+        <h4>NEXT: Københavns Mediegymnasie</h4>
         <p>Study field: Game Design</p>
         <p>Communication & IT A - Design B</p>
         </div>
 
         <div>
-            <p>In NEXT:KMG (For short), I was introduced to the basics of mediadesign such as:</p>
+            <p class="education_intro">In NEXT:KMG (For short), I was introduced to the basics of mediadesign such as:</p>
             <li>Getalt Principles</li>
             <li>Nudging</li>
             <li>Sustainable Develpoment Goals</li>
@@ -130,14 +147,14 @@
             <li>Hi-Fi prototype (in figma)</li>
         </div>
 
-            <div>
+            <div class="education">
             <p>2020-Current</p>
-            <p>NEXT: Københavns Erhvervsakademi</p>
+            <h4>Københavns Erhvervsakademi</h4>
             <p>Study field: Multimediadesign</p>
             </div>
 
             <div>
-                <p>Currenltly I just finished first semester. I've learned various new skills such as:</p>
+                <p class="education_intro">Currenltly I just finished first semester. I've learned various new skills such as:</p>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>CSS Styling</li>
@@ -154,11 +171,11 @@
             </div>
 
             <div>
-                During first semester i revisted a of skills from KMG.
+                <p>During first semester i revisted a of skills from KMG.</p>
             </div>
 
             <div>
-                <h1>Goals for second semester</h1>
+                <h2>Goals for second semester</h2>
                 <p>In second semester there are some areas I would like to improve upon:</p>
                 <li>Design in general, I feel like I lack a creative sense and direciton. And want to learn more about design principles and become more knowledge and skilled at it</li>
                 <li>Javascript, especially when it comes to animated galleries. There’s a lot of cool stuff I wanna do and I think it’s all possible with Javascript, so I want to become more familiar with it so I can make my idea to reality.</li>

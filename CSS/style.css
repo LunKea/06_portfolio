@@ -26,16 +26,49 @@
 
 /* Styling */
 
+main{
+    white-space: normal;
+}
+
 h1{
     font-family: Dune_Rise;
+    font-size: 40px;
 }
 
 h2{
     font-family: "Inria Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    color: #4D48C0;
+    padding-left: 20px;
+    
 }
 
-p{
+h3{
+    font-family: "Inria Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    color: #686666;
+    
+}
+
+h4{
     font-family: inter;
+    font-weight: 700;
+}
+
+p, li{
+    font-size: 24pxo;
+    font-family: inter;
+}
+
+
+li{
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 a{

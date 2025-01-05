@@ -1,4 +1,9 @@
 /* CSS Reset */
+
+.hide {
+    display: none;
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -20,7 +25,7 @@
         display: none;
     }
 
-    div, section,{
+    div, section{
         padding-bottom: 25px;
     }
 
@@ -61,6 +66,7 @@
 
 
     body{
+        margin-bottom: 100px;
         background-color: #E8EAE9;
     }
 
@@ -111,7 +117,7 @@
 
     /* PORTFOLIO */
     .portfolio_buttons{
-        img{
+        img, button{
             height: 365px;
             width: 140;
         }

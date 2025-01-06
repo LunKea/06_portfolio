@@ -129,18 +129,7 @@
 
     /* ABOUT ME */
 
-    .iframe_container{
-        /* position: relative; */
-    overflow: hidden;
-    height: 500px;o
-    width: 100%;
-    /* padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    }
 
-    .iframe_sprite{
-        width: 100%;
-        height: 100%;
-    }
 
 
     .aboutme_sidepanel{
@@ -224,6 +213,19 @@
 
     .portfolio_section{
         padding-top: 0px;
+    }
+
+    .iframe_container{
+        /* position: relative; */
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    /* padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    }
+
+    .iframe_sprite{
+        width: 100%;
+        height: 100%;
     }
 
     /* Contact Me */
@@ -413,9 +415,136 @@ nav {
 
 /* DESKTOP SITE */
 @media (min-width: 1920px){
+
+    body{
+        background-color: E8EAE9;
+    }
+
+    main, section{
+        padding:0px 225px 10px 225px
+    }
+
     /* Gemmer phone & tablet menu */
     .phone_menu, .tablet_menu{
         display: none;
+        
+    }
+
+
+    /* DESKTOP HEADER */
+    .desktop_menu {
+        margin-bottom: 100px;
+        display: block;
+        margin-left: auto; 
+        border-radius: 0px 0px 0px 100px;
+        background: #E8EAE9;
+        box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+        width: 850px;
+        text-align: center;
+        ul{
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            max-width: 1040px;
+            font-style: inter;
+            margin-left: auto;
+            margin-right: auto
+        }
+        li{
+            width: 200px;
+        }
+        a{
+            color: #4D48C0;
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #35B4EE;
+            cursor: pointer;
+        }
+
+        nav{
+        }
+
+    }
+
+    /* Portfolio */
+    .portfolio_body{
+        h2{
+            padding-left: auto;
+            padding-right: auto;
+        }
+    }
+    .portfolio_buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+        margin-bottom: 800px;
+    }
+
+    .text_btn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h1_h2{
+        padding-left: 0px;
+    }
+
+    .project_description_intro{
+        li{
+            margin-left: 20px;
+        }
+    }
+
+    .project_description{
+
+        p{text-align: center;}
+    }
+
+    .img_text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        p{
+            padding-left: 25px;
+        }
+        img{
+            object-fit: cover;
+            border-radius: 25px;
+            border: 2px solid #A7B2C8
+            width: 385px;
+            height: 315px;
+        }
+        li{
+            margin-left: 50px;
+        }
+    }
+
+    .text_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        li{
+            margin-left: 25px;
+        }
+    }
+    img{
+        object-fit: cover;
+        border-radius: 25px;
+        border: 2px solid #A7B2C8
+        width: 385px;
+        height: 315px;
+    }
+    }
+
+    .iframe_container{
+        height: 700px;
+        border-radius: 100px 100px 0px 0px;
     }
 
 
@@ -443,8 +572,5 @@ nav {
         margin-right: 20px;
       }
 
-    body{
-        background-color: white;
-    }
 
 }

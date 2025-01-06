@@ -25,6 +25,10 @@
 
 
 /* Styling */
+button:hover{
+    cursor: pointer;
+}
+
 
 main{
     white-space: normal;

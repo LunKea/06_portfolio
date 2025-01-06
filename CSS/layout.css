@@ -79,6 +79,53 @@
         background-color: #E8EAE9;
     }
 
+    /* Index LANDING PAGE */
+
+    .bio1{
+        padding-bottom: 0px;
+        h1{
+            font-size: 80px;
+            padding-top: 30px;
+        }
+        ul{
+            padding-left: 20px;
+        }
+    }
+
+    .bio2{
+        padding-top: 10px;
+        ul{
+            padding-left: 20px;
+        }
+        p{
+            padding-top: 10px;
+        }
+    }
+
+    .get_in_contact{
+
+    }
+
+    .get_in_contact_btn{
+        display: flex;
+        justify-content: center;
+        button{
+        width: 250px;
+        height: 50px;
+        border: 2px solid #A7B2C8;
+        border-radius: 0px;
+        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+            text-align: center;
+            color: #4F6483;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
+            font-family: Dune_Rise;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.63px;
+        }
+    }
 
     /* ABOUT ME */
 
@@ -178,6 +225,74 @@
     .portfolio_section{
         padding-top: 0px;
     }
+
+    /* Contact Me */
+    
+
+    .form_text{
+        text-align: center;
+        h1{
+            padding-top: 50px;
+        }
+    }
+
+    label,
+    input,
+    button {
+    display: block;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0;
+        }
+
+        form {
+        display: grid;
+        }
+
+        form input:focus {
+        outline: none;
+        }
+
+        .name,
+        .email {
+        padding: 3px;
+        }
+
+        .message {
+            width: 431px;
+            height: 111px;
+        color: #b993b7;
+        }
+
+        .name, .email, .message{
+            /* margin-left: 50px;
+            margin-right: 50px; */
+        }
+
+        .html_form {
+            display: flex;
+            justify-content: center;
+            border-radius: 25px;
+            background: #E8EAE9;
+            box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+            
+                button{
+                    width: 200px;
+                    height: 30px;
+                    border: 2px solid #A7B2C8;
+                    border-radius: 0px;
+                    background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+                        text-align: center;
+                        color: #4F6483;
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
+                        font-family: Dune_Rise;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.63px;
+                }
+        }
 
 }
 

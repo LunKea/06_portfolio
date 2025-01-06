@@ -48,12 +48,45 @@
     <main>
         <div class="form_text">
         <h1>Lets Talk!</h1>
-        <p>If you're interested in getting in contact with me for collaboration or work hit me up!(˶˃ ᵕ ˂˶) </p>
+        <p>If you're interested in getting in contact with me 
+            <br>
+            for collaboration or work hit me up!
+            <br>
+            (˶˃ ᵕ ˂˶) </p>
         </div>
         <div class="html_form" >
-            <form name="contact">
+
+            <form>
+                <input
+                  class="name"
+                  placeholder="Full name..."
+                  type="text"
+                  name="fname"
+                  id="full-name"
+                />
+  
+                <input
+                  class="email"
+                  placeholder="Your email..."
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+  
+                <input
+                  class="message"
+                  placeholder="Your message..."
+                  type="text"
+                  name="text"
+                  id="inpt"
+                />
+  
+                <button id="submit">SUBMIT</button>
+              </form>
+
+            <!-- <form name="contact"> -->
                 <!-- Formular-indhold -->
-                <label class="name"> Name</label>
+                <!-- <label class="name">Name</label>
                 <input class="name" name="Name" type="text">
 
                 <label class="email">Email</label>
@@ -62,7 +95,7 @@
                 <label class="message">Message</label>
                 <textarea name="Message" rows="5"></textarea>
                 <button class="contact_button">Send</button>
-            </form>
+            </form> -->
         </div>
     </main>
     <script src="../JS/script.js"></script>

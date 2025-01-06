@@ -242,9 +242,13 @@
     input,
     button {
     display: block;
-    margin-top: 30px;
+    margin-top: 25px;
     border-radius: 10px;
     border: 0;
+        }
+
+        input{
+            font-family: inter;
         }
 
         form {
@@ -257,13 +261,13 @@
 
         .name,
         .email {
-        padding: 3px;
+        padding: 7px;
         }
 
         .message {
             width: 431px;
             height: 111px;
-        color: #b993b7;
+            margin-bottom: ;
         }
 
         .name, .email, .message{
@@ -307,8 +311,14 @@
 
     .tablet_menu{
         display: block;
+        position: fixed;
+        top: 0%;
+        left: 95%;
     }
 
+    body{
+        margin: 100px 100px 0px 100px;
+    }
 
     /* BURGER MENU */
 /* base styles */
@@ -360,7 +370,20 @@ body {
     right: 0;
 }
 
+.bio_grid, .img_text, .aboutme_2grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.img_text{
+    p,ul{
+        padding-left: 30px;
+    }
+}
+
+.aboutme_mainpanel{
+    padding-left: 60px;
+}
 
 /* nav */
 nav {
@@ -411,13 +434,42 @@ nav {
 }
 
 
+/* Grids */
+
+
+
+
+/* CONTACT */
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+.html_form{
+    width: 605px;
+    height: 350px;
+    border-radius: 25px;
+    background: #E8EAE9;
+    box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+}
+form {
+    border-radius: 8px;
+    display: grid;
+    height: 315px;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 /* DESKTOP SITE */
 @media (min-width: 1920px){
 
     body{
-        background-color: E8EAE9;
+        background-color: #8EAE9;
+        margin: 0px 0px 0px 0px;
     }
 
     main{
@@ -432,7 +484,10 @@ nav {
     /* Gemmer phone & tablet menu */
     .phone_menu, .tablet_menu{
         display: none;
-        
+    }
+
+    .tablet_menu{
+        display: none;
     }
 
 
@@ -460,7 +515,7 @@ nav {
         }
         a{
             color: #4D48C0;
-            font-family: Inter;
+            font-family: Dune_Rise;
             font-size: 40px;
             font-style: normal;
             font-weight: 700;
@@ -595,13 +650,12 @@ nav {
 
     .html_form{
         width: 605px;
-        height: 300px;
+        height: 350px;
         border-radius: 25px;
         background: #E8EAE9;
         box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
     }
     form {
-        padding: 2rem;
         border-radius: 8px;
         display: grid;
         height: 315px;
@@ -611,4 +665,5 @@ nav {
       }
 
 
+    }
 }

@@ -480,7 +480,27 @@ nav {
 
     /* Index Landing Page DESKTOP */
     
+    .bio1{
+        h1{
+            font-size: 54px ;
+        }
+    }
 
+    .bio2{
+        text-align: center;
+        p{
+            font-weight: 800;
+            font-size: 30px;
+        }
+        li{
+            list-style-type: none;
+        }
+    }
+
+    .bio_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     /* About me DESKTOP */
     .aboutme_2grid{

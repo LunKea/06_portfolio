@@ -1,14 +1,12 @@
-
 // Burger menu
-// document.querySelector(".burger-menu").addEventListener("click", function () {
-//     // document.querySelector(".nav-list").classList.toggle("show");
-//     document.querySelector(".overlay").style.display = "block";
-//   });
-  
-//   document.querySelector(".overlay").addEventListener("click", function () {
-//     // document.querySelector(".nav-list").classList.remove("show");
-//     document.querySelector(".overlay").style.display = "none";
-//   });
+const hamMenu = document.querySelector(".ham-menu");
+
+const offScreenMenu = document.querySelector(".off-screen-menu");
+
+hamMenu.addEventListener("click", () => {
+hamMenu.classList.toggle("active");
+offScreenMenu.classList.toggle("active");
+});
 
 
   // mobile portfolio click-scroll

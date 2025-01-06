@@ -14,7 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/layout.css">
     <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JS/script.js"></script>
     <title>ABOUT ME</title>
 </head>
 <body>
@@ -29,21 +28,26 @@
         <img src="../Assets/pfp.jpg" alt="" class="en">
         <img src="../Assets/pfp.jpg" alt="" class="dk">
     </header>
+
     
     <!-- Tablet header -->
     <header class="tablet_menu">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="about_me.html">ABOUT ME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact_me.html">CONTACT ME</a></li>
+        <div class="off-screen-menu">
+            <ul>
+              <li><a href="index.html">HOMe</a></li>
+              <li><a href="about_me.html">AbOUT Me</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact_me.html">CONTACT</a></li>
             </ul>
-            <div class="burger-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+          </div>
+      
+          <nav>
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-        </nav>
+          </nav>
     </header>
 
     <!-- Desktop header -->
@@ -79,7 +83,7 @@
         <li>Warehouse worker</li>
 
         <h2>Interests
-            <br>
+    
             /Hobbies
         </br>
         </h2>
@@ -117,7 +121,7 @@
 
         <div>
             <p class="education_intro">In NEXT:KMG (For short), I was introduced to the basics of mediadesign such as:</p>
-            <li>Getalt Principles</li>
+            <li>Gestalt Principles</li>
             <li>Nudging</li>
             <li>Sustainable Develpoment Goals</li>
             <li>SCRUM</li>
@@ -174,7 +178,7 @@
                 <p>During first semester i revisted a of skills from KMG.</p>
             </div>
 
-            <div>
+            <div class="goals">
                 <h2>Goals for second semester</h2>
                 <p>In second semester there are some areas I would like to improve upon:</p>
                 <li>Design in general, I feel like I lack a creative sense and direciton. And want to learn more about design principles and become more knowledge and skilled at it</li>
@@ -187,6 +191,6 @@
 
 
     </main>
-
+    <script src="../JS/script.js"></script>
 </body>
 </html>

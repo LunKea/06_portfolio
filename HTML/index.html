@@ -14,7 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/layout.css">
     <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JS/script.js"></script>
     <title>LXNSTAR</title>
 </head>
 <body>
@@ -32,18 +31,22 @@
     
     <!-- Tablet header -->
     <header class="tablet_menu">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="about_me.html">ABOUT ME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact_me.html">CONTACT ME</a></li>
+        <div class="off-screen-menu">
+            <ul>
+              <li><a href="index.html">HOMe</a></li>
+              <li><a href="about_me.html">AbOUT Me</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact_me.html">CONTACT</a></li>
             </ul>
-            <div class="burger-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+          </div>
+      
+          <nav>
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-        </nav>
+          </nav>
     </header>
 
     <!-- Desktop header -->
@@ -100,6 +103,6 @@
         </div>
             
     </main>
-
+    <script src="../JS/script.js"></script>
 </body>
 </html>

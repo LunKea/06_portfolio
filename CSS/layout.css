@@ -420,9 +420,14 @@ nav {
         background-color: E8EAE9;
     }
 
-    main, section{
-        padding:0px 225px 10px 225px
+    main{
+        padding: 0px 265px 0px 265px;
     }
+
+    section{
+        padding:0px 55px 0px 55px
+    }
+
 
     /* Gemmer phone & tablet menu */
     .phone_menu, .tablet_menu{
@@ -473,7 +478,20 @@ nav {
 
     }
 
-    /* Portfolio */
+    /* Index Landing Page DESKTOP */
+    
+
+
+    /* About me DESKTOP */
+    .aboutme_2grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+
+    /* Portfolio DESKTOP*/
     .portfolio_body{
         h2{
             padding-left: auto;

@@ -40,13 +40,13 @@
         padding-bottom: 5px;
     }
 
-    body{
+    html, body{
         max-width: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     main, section{
-        padding: 0px 25px 125px 25px;
+        padding: 0 0 125px 0;
     }
 
 /* 
@@ -61,7 +61,7 @@
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             position: fixed;
             bottom: 0px;
-            padding: 15px 85px 15px 85px;
+            padding: 7px 55px 7px 55px;
             /* padding-top: 15px;
             padding-bottom: 15px;
             padding-left: 85px;
@@ -84,7 +84,7 @@
     .bio1{
         padding-bottom: 0px;
         h1{
-            font-size: 80px;
+            font-size: 70px;
             padding-top: 30px;
         }
         ul{
@@ -104,6 +104,13 @@
 
     .get_in_contact{
 
+    }
+
+    .get_in_contact_aboutme{
+        p{
+            padding-left: 20px;
+            padding-top: 10px;
+        }
     }
 
     .get_in_contact_btn{
@@ -153,9 +160,7 @@
         margin-top: auto;
     }
     
-    .aboutme_mainpanelsection{
-        display: none;
-    }
+   
 
     .aboutme_mainpanel{
         h2{
@@ -184,6 +189,11 @@
         box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
         p,li{
             padding-left: 20px;
+            padding-right: 20px;
+            list-style: none;
+        }
+        li{
+            padding-top: 20px;
         }
     }
 
@@ -265,9 +275,7 @@
         }
 
         .message {
-            width: 431px;
             height: 111px;
-            margin-bottom: ;
         }
 
         .name, .email, .message{
@@ -276,11 +284,13 @@
         }
 
         .html_form {
-            display: flex;
-            justify-content: center;
+            /* display: flex;
+            justify-content: center; */
             border-radius: 25px;
             background: #E8EAE9;
             box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+            width: 90%;
+            margin: auto;
             
                 button{
                     width: 200px;
@@ -437,9 +447,28 @@ nav {
 /* Grids */
 
 
+/* ABOUT ME TABLET */
 
+.aboutme_mainpanelsection{
+    display: block;
 
-/* CONTACT */
+}
+
+/* PRTFOLIO TABLET */
+
+    .portfolio_section{
+        button{
+            font-size: 52px;
+            padding: 10%;
+        }
+        a{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }
+
+/* CONTACT TABLET */
 
 main{
     display: grid;
@@ -464,6 +493,10 @@ form {
 
 }
 
+#submit{
+    margin: auto;
+}
+
 /* DESKTOP SITE */
 @media (min-width: 1920px){
 
@@ -473,7 +506,7 @@ form {
     }
 
     main{
-        padding: 0px 265px 0px 265px;
+        padding: 0px 265px 65px 265px;
     }
 
     section{
@@ -501,6 +534,8 @@ form {
         box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
         width: 850px;
         text-align: center;
+        /* Gør at teksten "About me" ikke line-breaker */
+        white-space: nowrap;
         ul{
             list-style-type: none;
             display: grid;
@@ -512,11 +547,11 @@ form {
         }
         li{
             width: 200px;
+            font-size: 40px;
         }
         a{
             color: #4D48C0;
             font-family: Dune_Rise;
-            font-size: 40px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -626,6 +661,7 @@ form {
             margin-left: 25px;
         }
     }
+
     img{
         object-fit: cover;
         border-radius: 25px;
@@ -643,14 +679,10 @@ form {
 
     /* CONTACT */
 
-    main{
-        display: grid;
-        place-items: center;
-    }
 
     .html_form{
-        width: 605px;
-        height: 350px;
+        /* width: 605px;
+        height: 350px; */
         border-radius: 25px;
         background: #E8EAE9;
         box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);

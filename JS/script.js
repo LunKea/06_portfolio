@@ -68,7 +68,7 @@ offScreenMenu.classList.toggle("active");
     function showUX_en(){
       console.log("Showin UX Portfolio EN");
       document.querySelector(".UX_en").classList.remove("hide");
-      document.querySelector(".animation_en").classList.remove("hide");
+      document.querySelector(".animation_en").classList.add("hide");
       document.querySelector(".passion_en").classList.add("hide");
       document.querySelector(".final_en").classList.add("hide");
       document.querySelector(".introweek_en").classList.add("hide");

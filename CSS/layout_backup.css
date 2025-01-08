@@ -19,309 +19,309 @@
 }
 
 /* MOBILE SITE */
-@media (min-width: 430px){
-    /* Gemmer tablet og desktop menu */
-    .tablet_menu, .desktop_menu{
-        display: none;
-    }
-
-    .phone_menu{
-        display: block;
-    }
-
-    div, section{
-        padding-bottom: 25px;
-    }
-
-
-
-
-    h1, h2, h3,p {
-        padding-bottom: 5px;
-    }
-
-    html, body{
-        max-width: 100%;
-        /* overflow-x: hidden; */
-    }
-
-    main, section{
-        padding: 0 0 125px 0;
-    }
-
-    /* 
-    body{
-        padding: 0px 15px 125px 15px;
-    } */
-
-    /* MOBILE MENU */
+    @media (min-width: 430px){    
+        /* Gemmer tablet og desktop menu */
+        .tablet_menu, .desktop_menu{
+            display: none;
+        }
+    
         .phone_menu{
-            background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            position: fixed;
-            bottom: 0px;
-            padding: 7px 55px 7px 55px;
-            /* padding-top: 15px;
-            padding-bottom: 15px;
-            padding-left: 85px;
-            padding-right: 85px; */
-            gap: 15px;
-            img{
-                border: 2px solid #A7B2C8;
-                border-radius: 10px;
+            display: block;
+        }
+    
+        div, section{
+            padding-bottom: 25px;
+        }
+    
+    
+    
+    
+        h1, h2, h3,p {
+            padding-bottom: 5px;
+        }
+    
+        html, body{
+            max-width: 100%;
+            /* overflow-x: hidden; */
+        }
+    
+        main, section{
+            padding: 0 0 125px 0;
+        }
+    
+        /* 
+        body{
+            padding: 0px 15px 125px 15px;
+        } */
+    
+        /* MOBILE MENU */
+            .phone_menu{
+                background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                position: fixed;
+                bottom: 0px;
+                padding: 7px 55px 7px 55px;
+                /* padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 85px;
+                padding-right: 85px; */
+                gap: 15px;
+                img{
+                    border: 2px solid #A7B2C8;
+                    border-radius: 10px;
+                }
+            }
+    
+    
+        body{
+            margin-bottom: 100px;
+            background-color: #E8EAE9;
+        }
+    
+        /* Index LANDING PAGE */
+    
+        .bio1{
+            padding-bottom: 0px;
+            h1{
+                font-size: 70px;
+                padding-top: 30px;
+            }
+            ul{
+                padding-left: 20px;
             }
         }
-
-
-    body{
-        margin-bottom: 100px;
-        background-color: #E8EAE9;
-    }
-
-    /* Index LANDING PAGE */
-
-    .bio1{
-        padding-bottom: 0px;
-        h1{
-            font-size: 70px;
-            padding-top: 30px;
-        }
-        ul{
-            padding-left: 20px;
-        }
-    }
-
-    .bio2{
-        padding-top: 10px;
-        ul{
-            padding-left: 20px;
-        }
-        p{
-            padding-top: 10px;
-        }
-    }
-
-    .get_in_contact{
-
-    }
-
-    .get_in_contact_aboutme{
-        p{
-            padding-left: 20px;
-            padding-top: 10px;
-        }
-    }
-
-    .get_in_contact_btn{
-        display: flex;
-        justify-content: center;
-        button{
-        width: 250px;
-        height: 50px;
-        border: 2px solid #A7B2C8;
-        border-radius: 0px;
-        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-            text-align: center;
-            color: #4F6483;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
-            font-family: Dune_Rise;
-            font-size: 21px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.63px;
-        }
-    }
-
-
-    /* ABOUT ME */
-
-
-
-
-    .aboutme_sidepanel{
-        border-radius: 25px;
-        border: 2px solid #A7B2C8;
-        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-        padding-bottom: 10px;
-        padding-top: 20px;
-        p{
-            padding-left: 20px;
-            color: #35B4EE;
-            font-weight: 700;
-            font-size: 27px;
-        }
-    }
-
-
-    .aboutme_introduction{
-        text-align: center;
-        margin-left: auto;
-        margin-top: auto;
-    }
     
-   
-
-    .aboutme_mainpanel{
-        h2{
+        .bio2{
+            padding-top: 10px;
+            ul{
+                padding-left: 20px;
+            }
+            p{
+                padding-top: 10px;
+            }
+        }
+    
+        .get_in_contact{
+    
+        }
+    
+        .get_in_contact_aboutme{
+            p{
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+        }
+    
+        .get_in_contact_btn{
+            display: flex;
+            justify-content: center;
+            button{
+            width: 250px;
+            height: 50px;
+            border: 2px solid #A7B2C8;
+            border-radius: 0px;
+            background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+                text-align: center;
+                color: #4F6483;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
+                font-family: Dune_Rise;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.63px;
+            }
+        }
+    
+    
+        /* ABOUT ME */
+    
+    
+    
+    
+        .aboutme_sidepanel{
+            border-radius: 25px;
+            border: 2px solid #A7B2C8;
+            background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+            padding-bottom: 10px;
+            padding-top: 20px;
+            p{
+                padding-left: 20px;
+                color: #35B4EE;
+                font-weight: 700;
+                font-size: 27px;
+            }
+        }
+    
+    
+        .aboutme_introduction{
             text-align: center;
             margin-left: auto;
-            margin-right: ;
+            margin-top: auto;
         }
-    }
-
-    .education{
-        padding-top: 20px;
-        margin-bottom: 10px;
-        border-radius: 25px;
-        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-        box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
-        padding-left: 20px;
-    }
-
-    .education_intro{
-        padding-top: 25px;
-    }
-
-    .goals{
-        border-radius: 25px;
-        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-        box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
-        p,li{
-            padding-left: 20px;
-            padding-right: 20px;
-            list-style: none;
-        }
-        li{
-            padding-top: 20px;
-        }
-    }
-
-    /* PORTFOLIO */
-    .portfolio_buttons{
-        img, button{
-            height: 365px;
-            width: 140;
-        }
-    }
-
-    .backToTopDiv{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 125px;
-    }
-
-    .backToTop{
-        font-size: 20px;
-        border-radius: 10px;
-        background: #E8EAE9;
-        box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
-        height: 100px;
-        width: 250px;
-    }
-
-    .portfolio_section{
-        padding-top: 0px;
-    }
-
-    .iframe_container{
-        /* position: relative; */
-    overflow: hidden;
-    height: 500px;
-    width: 100%;
-    /* padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    }
-
-    .iframe_sprite{
-        width: 100%;
-        height: 100%;
-    }
-
-    /* Contact Me */
-    
-
-    .form_text{
-        text-align: center;
-        h1{
-            padding-top: 50px;
-        }
-    }
-
-    label,
-    input,
-    button {
-    display: block;
-    margin-top: 25px;
-    border-radius: 10px;
-    border: 0;
-        }
-
-        input{
-            font-family: inter;
-        }
-
-        form {
-        display: grid;
-        }
-
-        form input:focus {
-        outline: none;
-        }
-
-        .name,
-        .email {
-        padding: 7px;
-        }
-
-        .message {
-            height: 111px;
-            margin-bottom: 20px;
-        }
-
-        .name, .email, .message{
-            margin-left: 50px;
-            margin-right: 50px;
-        }
-
-        .html_form {
-            /* display: flex;
-            justify-content: center; */
-            border-radius: 25px;
-            background: #E8EAE9;
-            box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
-            width: 80%;
-            margin: auto;
-            
-                button{
-                    width: 200px;
-                    height: 30px;
-                    border: 2px solid #A7B2C8;
-                    border-radius: 0px;
-                    background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
-                        text-align: center;
-                        color: #4F6483;
-                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
-                        font-family: Dune_Rise;
-                        font-size: 21px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.63px;
-                }
         
+       
+    
+        .aboutme_mainpanel{
+            h2{
+                text-align: center;
+                margin-left: auto;
+                margin-right: ;
+            }
         }
-
-        #submit{
-            margin: auto;
+    
+        .education{
+            padding-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+            box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+            padding-left: 20px;
         }
-}
+    
+        .education_intro{
+            padding-top: 25px;
+        }
+    
+        .goals{
+            border-radius: 25px;
+            background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+            box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+            p,li{
+                padding-left: 20px;
+                padding-right: 20px;
+                list-style: none;
+            }
+            li{
+                padding-top: 20px;
+            }
+        }
+    
+        /* PORTFOLIO */
+        .portfolio_buttons{
+            img, button{
+                height: 365px;
+                width: 140;
+            }
+        }
+    
+        .backToTopDiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 125px;
+        }
+    
+        .backToTop{
+            font-size: 20px;
+            border-radius: 10px;
+            background: #E8EAE9;
+            box-shadow: -23px -23px 45px 0px #FFF, -23px -23px 45px 0px #FFF, 28px 28px 50px 0px rgba(13, 39, 80, 0.16), 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+            height: 100px;
+            width: 250px;
+        }
+    
+        .portfolio_section{
+            padding-top: 0px;
+        }
+    
+        .iframe_container{
+            /* position: relative; */
+        overflow: hidden;
+        height: 500px;
+        width: 100%;
+        /* padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        }
+    
+        .iframe_sprite{
+            width: 100%;
+            height: 100%;
+        }
+    
+        /* Contact Me */
+        
+    
+        .form_text{
+            text-align: center;
+            h1{
+                padding-top: 50px;
+            }
+        }
+    
+        label,
+        input,
+        button {
+        display: block;
+        margin-top: 25px;
+        border-radius: 10px;
+        border: 0;
+            }
+    
+            input{
+                font-family: inter;
+            }
+    
+            form {
+            display: grid;
+            }
+    
+            form input:focus {
+            outline: none;
+            }
+    
+            .name,
+            .email {
+            padding: 7px;
+            }
+    
+            .message {
+                height: 111px;
+                margin-bottom: 20px;
+            }
+    
+            .name, .email, .message{
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+    
+            .html_form {
+                /* display: flex;
+                justify-content: center; */
+                border-radius: 25px;
+                background: #E8EAE9;
+                box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+                width: 80%;
+                margin: auto;
+                
+                    button{
+                        width: 200px;
+                        height: 30px;
+                        border: 2px solid #A7B2C8;
+                        border-radius: 0px;
+                        background: linear-gradient(180deg, #FFF 0%, #C2CBD2 100%);
+                            text-align: center;
+                            color: #4F6483;
+                            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 65px rgba(255, 255, 255, 0.25);
+                            font-family: Dune_Rise;
+                            font-size: 21px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            letter-spacing: 0.63px;
+                    }
+            
+            }
+    
+            #submit{
+                margin: auto;
+            }
+    
+    }
 
 /* TABLET SITE */
 @media (min-width: 768px){
 
- 
         /* Gemmer tablet og desktop menu */
         .phone_menu, .desktop_menu{
             display: none;
@@ -490,7 +490,7 @@
     .aboutme_introduction{
     text-align: unset;
         h1{
-            font-size: 30px;
+            font-size: 35px;
         }
         
         h3{
@@ -582,11 +582,10 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-}}
+    }
 
 /* DESKTOP SITE */
 @media (min-width: 1920px){
-
 
     body{
         background-color: #8EAE9;
@@ -601,19 +600,6 @@
         padding:0px 55px 0px 55px
     }
 
-
-    /* DESKTOP FOOTER */
-    footer{
-        z-index: 2;
-        top: 100%;
-        border-radius: 100px 100px 0px 0px;
-        background: #E8EAE9;
-        box-shadow: 28px 11px 55.5px 0px #FFF, 0px -14px 47px 0px #FFF;
-        p{
-            color: #35B4EE;
-            text-align: center;
-        }
-    }
 
     /* Gemmer phone & tablet menu */
     .phone_menu, .tablet_menu{
@@ -698,7 +684,6 @@
 
     /* About me DESKTOP */
     .aboutme_2grid{
-        padding-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         border-radius: 25px;
@@ -706,33 +691,7 @@
         box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16), -23px -23px 45px 0px #FFF;
     }
 
-    .aboutme_1stpanel{
-        order: 2;
-        li{
-            padding-left: 20px;
-        }
-    }
-
-    .aboutme_2ndpanel{
-        order: 1;
-    }
-
-    .aboutme_introduction{
-        h1{
-            text-align: unset;
-            font-size: 33px;
-        }
-        h3(
-            font-size: 30px;
-        )
-    }
-
-    .aboutme_sidepanel{
-        padding-top: 0px;
-        img{
-            border-radius: 25px 25px 0px 0px;
-        }
-    }
+    
 
 
     /* Portfolio DESKTOP*/
@@ -748,12 +707,6 @@
         grid-template-rows: 1fr 1fr;
         gap: 50px;
         margin-bottom: 800px;
-    }
-
-    .portoflio_title{
-        h1{
-            text-align: center;
-        }
     }
 
     .text_btn{
@@ -788,7 +741,7 @@
             border-radius: 25px;
             border: 2px solid #A7B2C8
             width: 385px;
-            height: 715px;
+            height: 315px;
         }
         li{
             margin-left: 50px;

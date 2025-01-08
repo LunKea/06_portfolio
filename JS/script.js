@@ -21,6 +21,9 @@ offScreenMenu.classList.toggle("active");
     document.querySelector(".portfolio_section").classList.add("hide");
     document.querySelector(".portfolio_section2").classList.add("hide");
     document.querySelector(".portfolio_section3").classList.add("hide");
+    document.querySelector(".portfolio_section4").classList.add("hide");
+    document.querySelector(".portfolio_section5").classList.add("hide");
+    document.querySelector(".portfolio_section6").classList.add("hide");
     }
 
     // Vis portfolio baseret på hvilken knap man trykker på
@@ -29,6 +32,11 @@ offScreenMenu.classList.toggle("active");
     function showIntroWeek_en(){
       console.log("Showing intro week EN");
       document.querySelector(".introweek_en").classList.remove("hide");
+      document.querySelector(".firstWebsite_en").classList.add("hide");
+      document.querySelector(".UX_en").classList.add("hide");
+      document.querySelector(".animation_en").classList.add("hide");
+      document.querySelector(".passion_en").classList.add("hide");
+      document.querySelector(".final_en").classList.add("hide");
       window.scrollTo({
         top: 2550,
         left: 0,
@@ -42,6 +50,11 @@ offScreenMenu.classList.toggle("active");
     function showFirstWebsite_en(){
       console.log("Showing first website EN");
       document.querySelector(".firstWebsite_en").classList.remove("hide");
+      document.querySelector(".introweek_en").classList.add("hide");
+      document.querySelector(".UX_en").classList.add("hide");
+      document.querySelector(".animation_en").classList.add("hide");
+      document.querySelector(".passion_en").classList.add("hide");
+      document.querySelector(".final_en").classList.add("hide");
       window.scrollTo({
         top: 2550,
         left: 0,
@@ -55,6 +68,61 @@ offScreenMenu.classList.toggle("active");
     function showUX_en(){
       console.log("Showin UX Portfolio EN");
       document.querySelector(".UX_en").classList.remove("hide");
+      document.querySelector(".animation_en").classList.remove("hide");
+      document.querySelector(".passion_en").classList.add("hide");
+      document.querySelector(".final_en").classList.add("hide");
+      document.querySelector(".introweek_en").classList.add("hide");
+      document.querySelector(".firstWebsite_en").classList.add("hide");
+      window.scrollTo({
+        top: 2400,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    document.querySelector(".animation_btn").addEventListener("click", showAnimation_en);
+
+    function showAnimation_en(){
+      document.querySelector(".animation_en").classList.remove("hide");
+      document.querySelector(".passion_en").classList.add("hide");
+      document.querySelector(".final_en").classList.add("hide");
+      document.querySelector(".introweek_en").classList.add("hide");
+      document.querySelector(".firstWebsite_en").classList.add("hide");
+      document.querySelector(".UX_en").classList.add("hide");
+      window.scrollTo({
+        top: 2400,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    document.querySelector(".passion_btn").addEventListener("click", showPassion_en);
+
+    function showPassion_en(){
+      console.log("Showin Passion Portfolio EN");
+      document.querySelector(".passion_en").classList.remove("hide");
+      document.querySelector(".final_en").classList.add("hide");
+      document.querySelector(".animation_en").classList.add("hide");
+      document.querySelector(".introweek_en").classList.add("hide");
+      document.querySelector(".firstWebsite_en").classList.add("hide");
+      document.querySelector(".UX_en").classList.add("hide");
+      window.scrollTo({
+        top: 2400,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    document.querySelector(".final_btn").addEventListener("click", showFinal_en);
+
+    function showFinal_en(){
+      console.log("Showin Final Portfolio EN");
+      document.querySelector(".final_en").classList.remove("hide");
+      document.querySelector(".passion_en").classList.add("hide");
+      document.querySelector(".animation_en").classList.add("hide");
+      document.querySelector(".introweek_en").classList.add("hide");
+      document.querySelector(".firstWebsite_en").classList.add("hide");
+      document.querySelector(".UX_en").classList.add("hide");
       window.scrollTo({
         top: 2400,
         left: 0,
@@ -66,6 +134,7 @@ offScreenMenu.classList.toggle("active");
     // Back to top button
     document.querySelector(".backToTop").addEventListener("click", ToTopFunction);
     function ToTopFunction(){
+      console.log("elevator going up")
       console.log("Går tilbage til toppen")
       window.scrollTo({
         top: 0,

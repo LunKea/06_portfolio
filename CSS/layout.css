@@ -596,7 +596,6 @@
         margin: auto;
     }
 }
-
     
 /* DESKTOP SITE */
 @media (min-width: 1920px){
@@ -640,6 +639,7 @@
 
 
     /* DESKTOP HEADER */
+/* DESKTOP HEADER */
 .desktop_menu {
     margin-bottom: 100px;
     display: block;
@@ -673,10 +673,6 @@
         font-weight: 700;
         line-height: normal;
         text-decoration: none;
-    }
-
-    img{
-        border-radius: 25px 25px 25px 25px ;
     }
 
     a:hover{
@@ -766,9 +762,6 @@
 
 
     /* Portfolio DESKTOP*/
-
-
-    
     .portfolio_body{
         h2{
             padding-left: auto;

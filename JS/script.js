@@ -9,8 +9,6 @@ offScreenMenu.classList.toggle("active");
 });
 
 
- 
-
   // mobile portfolio click-scroll
   // Scroll to section function
   

@@ -167,7 +167,6 @@
         h2{
             text-align: center;
             margin-left: auto;
-            margin-right: ;
         }
     }
 
@@ -505,6 +504,8 @@
     }
 
     .aboutme_mainpanel{
+
+
     h2{
         text-align: left;
         padding-left: 0px;
@@ -512,7 +513,10 @@
     }
 
     .education_list{
-    
+        li{
+            padding-left: 2000px;
+        }
+
         p{
             padding-top: 50px;
             padding-bottom: 20px;
@@ -535,6 +539,9 @@
             margin-left: auto;
             margin-right: auto;
         }
+        h2{
+            text-align: center;
+        }
     }
     
     .portfolio_buttons{
@@ -546,7 +553,7 @@
     }
 
     .h1_h2{
-        h1{i
+        h1{
             font-size: 800px;
             color: green;
         }
@@ -568,28 +575,35 @@
     }
 
     .html_form{
-    width: 605px;
-    height: 350px;
-    border-radius: 25px;
-    background: #E8EAE9;
-    box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
+        width: 605px;
+        height: 350px;
+        border-radius: 25px;
+        background: #E8EAE9;
+        box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
     }
     form {
-    border-radius: 8px;
-    display: grid;
-    height: 315px;
-    gap: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+        border-radius: 8px;
+        display: grid;
+        height: 315px;
+        gap: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    
+    }
+    
+    #submit{
+        margin: auto;
+    }
 }
-}}
 
+    
 /* DESKTOP SITE */
 @media (min-width: 1920px){
 
 
     body{
-        background-color: #8EAE9;
+        background-color: #E8EAE9;
         margin: 0px 0px 0px 0px;
     }
 
@@ -626,50 +640,54 @@
 
 
     /* DESKTOP HEADER */
-    .desktop_menu {
-        margin-bottom: 100px;
-        display: block;
-        margin-left: auto; 
-        border-radius: 0px 0px 0px 100px;
-        background: #E8EAE9;
-        box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
-        width: 850px;
-        text-align: center;
-        /* Gør at teksten "About me" ikke line-breaker */
-        white-space: nowrap;
-        ul{
-            list-style-type: none;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            max-width: 1040px;
-            font-style: inter;
-            margin-left: auto;
-            margin-right: auto
-        }
-        li{
-            width: 200px;
-            font-size: 40px;
-            padding-left: 0px;
-        }
-        a{
-            color: #4D48C0;
-            font-family: Dune_Rise;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            text-decoration: none;
-        }
-
-        a:hover{
-            color: #35B4EE;
-            cursor: pointer;
-        }
-
-        nav{
-        }
-
+.desktop_menu {
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto; 
+    border-radius: 0px 0px 0px 100px;
+    background: #E8EAE9;
+    box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16);
+    width: 850px;
+    text-align: center;
+    /* Gør at teksten "About me" ikke line-breaker */
+    white-space: nowrap;
+    ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1040px;
+        font-style: inter;
+        margin-left: auto;
+        margin-right: auto
+    }
+    li{
+        width: 200px;
+        font-size: 40px;
+        padding-left: 0px;
+    }
+    a{
+        color: #4D48C0;
+        font-size: 40px;
+        font-family: inter;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
     }
 
+    img{
+        border-radius: 25px 25px 25px 25px ;
+    }
+
+    a:hover{
+        color: #35B4EE;
+        cursor: pointer;
+    }
+
+    nav{
+    }
+
+}
     /* Index Landing Page DESKTOP */
     
     .bio1{
@@ -687,7 +705,7 @@
     .kea_section{
 
         ul{
-            padding-left: 0px;
+            padding-left: 60px;
         }
 
         li{
@@ -695,6 +713,17 @@
         }
 
     }
+
+    .aboutme_sidepanel{
+        ul{
+            padding-left: 35px;
+        }
+    }
+
+    .education_list{
+        ul{
+            padding-left: 25px;
+        }
 
     /* About me DESKTOP */
     .aboutme_2grid{
@@ -722,9 +751,10 @@
             text-align: unset;
             font-size: 33px;
         }
-        h3(
+        h3{
             font-size: 30px;
-        )
+            
+        }
     }
 
     .aboutme_sidepanel{
@@ -736,6 +766,9 @@
 
 
     /* Portfolio DESKTOP*/
+
+
+    
     .portfolio_body{
         h2{
             padding-left: auto;
@@ -776,6 +809,31 @@
         p{text-align: center;}
     }
 
+    .portfolio_section{
+        h2{
+        text-align: center;
+        }
+    }
+
+
+    .portfolio_link, #link_video{
+
+        border-radius: 25px;
+        border-color: #E8EAE9;
+        box-shadow: 28px 28px 50px 0px rgba(13, 39, 80, 0.16), -23px -23px 45px 0px #FFF;
+        margin-top: 25px;
+        width: 100%;
+        font-family: Dune_Rise;
+        color: #4F6483;
+        text-align: center;
+        font-family: "Dune_Rise";
+        font-size: 57px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: auto;
+        padding: 50px 0 50px 0 ;
+    }
 
     .img_text{
         display: grid;
@@ -786,8 +844,7 @@
         img{
             object-fit: cover;
             border-radius: 25px;
-            border: 2px solid #A7B2C8
-            width: 385px;
+            border: 2px solid #A7B2C8;
             height: 715px;
         }
         li{
@@ -806,12 +863,11 @@
     img{
         object-fit: cover;
         border-radius: 25px;
-        border: 2px solid #A7B2C8
-        width: 385px;
+        border: 2px solid #A7B2C8;
         /* height: 315px; */
         height: 700px;
     }
-    }
+    
 
     .iframe_container{
         height: 700px;
@@ -823,8 +879,8 @@
 
 
     .html_form{
-        width: 700px;
-        height: 350px;
+    width: 605px;
+    height: 350px;
         border-radius: 25px;
         background: #E8EAE9;
         box-shadow: -28px -28px 100px -6px #FFF, 20px 20px 50px 0px rgba(13, 39, 80, 0.25);
@@ -838,7 +894,5 @@
         margin-right: 20px;
       }
 
-      
-
-    }
+    
 }
